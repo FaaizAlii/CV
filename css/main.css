@@ -1,0 +1,31 @@
+
+body {
+    color: #fff;
+    background: url('/bg/bg.jpg') no-repeat center center / cover;
+}
+
+header {
+    /* background-color: rgba(0, 0, 0, 0.2);    */
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+#h-list {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+.h-item {
+    margin: 0px 5px;
+    padding: 4px;
+    transition: 0.3s ease;
+}
+
+.h-item:hover {
+    background: #3C5B6F;
+    color: #fff;
+    transform: scale(1.1);
+}
